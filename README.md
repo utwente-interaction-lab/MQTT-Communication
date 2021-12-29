@@ -58,7 +58,7 @@ If you choose a different name for the file passwords are stored in or location.
  When the lines have been added close the editor with ```ctrl x``` and press ```y``` to confirm. 
  To enforce the new rules in the config  type ```sudo service mosquitto restart``` in the command prompt.
  
- ## Setup MQTT on Windows 
+ ## Setup MQTT on Windows 10
  Start with downloading the MQTT.exe from [here](https://mosquitto.org/download/) and grab the mosquitto-x.x.x-install-windows-x64.exe file under Windows.
  When downloaded dubbel click the file to start installing it, and just go through the installer.
  
@@ -72,11 +72,27 @@ Now type in ``sc query mosquitto`` to check if it is running it should look some
 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/MosquittoCheck.png)
 
+Now edit the config file of mosquitto to ensure it can be found by devices that are not the computer/laptop itself.
+Start with opening notepad or other text editor as administator the same way as done with the commandprompt.
+Go to File->Open... and locate the config file. It should be in ``C:\Program Files\mosquitto`` and the file is called mosquitto.conf.
+Now add at the top the following two line;
+- ``listener 1883 0.0.0.0``
+- ``allow_anonymous true``
+
+The second line will be changed later to make it more secure.
+Now the following steps in the commandpromtp that should still be open as administator.;
+
+- ``sc stop mosquitto`` 
+- ``cd C:\Program Files\mosquitto``  (This is if the default installation location has been used for mosquitto.)
+- ``mosquitto -c -v mosquitto.conf``
+
+A prompt should now pop-up asking for network permissions. 
 
 
 
 
 
- 
+
+
  
 
