@@ -90,6 +90,16 @@ Now the following steps in the commandpromtp that should still be open as admini
 A prompt should now pop-up asking for network permissions. 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/MosquittoNetworkPrompt.png)
 
+click on allow acces so devices can find the MQTT broker.
+
+### Setup password MQTT Windows 10 
+Begin again with opening de command prompt again as adminstrator (not needed if still open) and use the following two commands.
+Again go to the mosquitto folder with ``cd C:\Program Files\mosquitto`` and now type make a user and a credentails file, the file will be called **credentails** and the user **itechlab** ``mosquitto_passwd -c credentials itechlab``. You will be asked to type in a password twice, make sure you remember it since it will be needed to connect to the broker in the future.
+ 
+ Now type in ``sc stop mosquitto`` to stop mosquitto so the config file can be edited. To do this open notepad as adminstrator and go to file->open... and go to ``c:\program files\mosquitto``. Make sure you have selected to see all files and open the mosquitto.conf file.
+ In the file change the line **allow_anonymous true** to **allow_anonymous false**. Save with ``ctrl s``.
+ Not type ``sc start mosquitto`` in the command prompt and it should work now.
+ 
 
 
 
