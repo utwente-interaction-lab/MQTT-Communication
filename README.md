@@ -67,6 +67,13 @@ If you choose a different name for the file passwords are stored in or location.
 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Adminstrator.png)
 
+Now type in ``sc start mosquitto`` and it should start. It will start automatically when your computer turns on from now on.
+Now type in ``sc query mosquitto`` to check if it is running it should look something like this;
+
+![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/MosquittoCheck.png)
+
+
+
 
 
 
