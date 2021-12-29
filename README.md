@@ -59,6 +59,15 @@ If you choose a different name for the file passwords are stored in or location.
  To enforce the new rules in the config  type ```sudo service mosquitto restart``` in the command prompt.
  
  ## Setup MQTT on Windows 
+ Start with downloading the MQTT.exe from [here](https://mosquitto.org/download/) and grab the mosquitto-x.x.x-install-windows-x64.exe file under Windows.
+ When downloaded dubbel click the file to start installing it, and just go through the installer.
+ 
+ When the installer has been completed open your command prompt as an adminstrator.
+ - running programms as an adminstrator can be done by searching for it in windows search and rightclicking it.
+
+
+
+
  
  
 
