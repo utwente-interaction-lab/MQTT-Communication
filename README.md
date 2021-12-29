@@ -74,19 +74,21 @@ Now type in ``sc query mosquitto`` to check if it is running it should look some
 
 Now edit the config file of mosquitto to ensure it can be found by devices that are not the computer/laptop itself.
 Start with opening notepad or other text editor as administator the same way as done with the commandprompt.
-Go to File->Open... and locate the config file. It should be in ``C:\Program Files\mosquitto`` and the file is called mosquitto.conf.
+Go to File->Open... and locate the config file. It should be in ``C:\Program Files\mosquitto`` and the file is called mosquitto.conf. Make sure you select all files so notepad can not only see .txt files
 Now add at the top the following two line;
 - ``listener 1883 0.0.0.0``
 - ``allow_anonymous true``
+Now use ``ctrl s`` t0 save it
 
 The second line will be changed later to make it more secure.
 Now the following steps in the commandpromtp that should still be open as administator.;
 
 - ``sc stop mosquitto`` 
 - ``cd C:\Program Files\mosquitto``  (This is if the default installation location has been used for mosquitto.)
-- ``mosquitto -c -v mosquitto.conf``
+- ``mosquitto -c mosquitto.conf``
 
 A prompt should now pop-up asking for network permissions. 
+![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/MosquittoNetworkPrompt.png)
 
 
 
