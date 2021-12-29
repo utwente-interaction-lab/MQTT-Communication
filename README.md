@@ -65,6 +65,8 @@ If you choose a different name for the file passwords are stored in or location.
  When the installer has been completed open your command prompt as an adminstrator.
  - running programms as an adminstrator can be done by searching for it in windows search and rightclicking it.
 
+![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Adminstrator.png)
+
 
 
 
