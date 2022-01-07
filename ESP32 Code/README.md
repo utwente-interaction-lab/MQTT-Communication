@@ -15,3 +15,4 @@ If you use a different one it will look different but might also use different p
 So before using check this. Make sure the middle pot pin supports analogue values.
 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/SchemaLolin32.png)
+![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/DiagramLolin32.png)
