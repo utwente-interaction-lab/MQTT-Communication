@@ -43,6 +43,7 @@ At the moment you have setup the MQTT client to know what IP it has on the netwo
 The IP is most likely something like 192.168.x.xxx
 
 However know everyone that can connect to your little network has access to the data being send, this is why the next step is to make it password protected.
+To have an easy overview of messages being send on your broker you can use a tool like [MQTT explorer](http://mqtt-explorer.com/).
 
 ### Setup password MQTT pi/Debian
 
@@ -57,6 +58,7 @@ Now the file opens and add the botom add the following two lines;
 If you choose a different name for the file passwords are stored in or location. The "```/etc/mosquitto/credentials```" will be something else.
  When the lines have been added close the editor with ```ctrl x``` and press ```y``` to confirm. 
  To enforce the new rules in the config  type ```sudo service mosquitto restart``` in the command prompt.
+ To have an easy overview of messages being send on your broker you can use a tool like [MQTT explorer](http://mqtt-explorer.com/).
  
  ## Setup MQTT on Windows 10
  Start with downloading the MQTT.exe from [here](https://mosquitto.org/download/) and grab the mosquitto-x.x.x-install-windows-x64.exe file under Windows.
