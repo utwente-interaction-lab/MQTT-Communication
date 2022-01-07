@@ -3,9 +3,9 @@
 import paho.mqtt.client as mqtt
 from time import time
 
-MQTT_HOST = "192.168.1.118"
-MQTT_USER = "mcpijnappel"
-MQTT_PASSWORD = "Vs@ZDH%w2%0R1IaM"
+MQTT_HOST = "*****"
+MQTT_USER = "*******"
+MQTT_PASSWORD = "******"
 
 
 
