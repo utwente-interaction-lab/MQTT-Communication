@@ -10,8 +10,8 @@ To install just click the install button.
 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/EspMQTTClient.png)
 
-Below is the drawing of the example circuit and the diagram. This one is for the ep32 lolin32 board. 
-If you use a different one it will look different but might also use different pins.
+Below is the drawing of the example circuit and the diagram. This one is for the **esp32 lolin32** board. 
+If you use a different one like the adafruit feather, it will look different but might also use different pins.
 So before using check this. Make sure the middle pot pin supports analogue values.
 
 ![alt text](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/SchemaLolin32.png)
