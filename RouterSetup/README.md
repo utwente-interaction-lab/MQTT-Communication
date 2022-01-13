@@ -9,11 +9,11 @@ In the example it is under Default Acces
 <img src="https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg" width="300">
 
 Go that site and use the found credentails to login.
-When logedin go to DHCP -> Addres Reservation. Here you can add a static IP for your devices.
-You need to fill in a MAC Addres which for allready connected devices can be found under DHCP -> DHCP Client List.
-And you have to choose an IP that is static, depending on the router you can do 192.186.1.xxx or 192.186.0.xxx. In this case it is 192.186.0.xxx.
+When logedin go to **DHCP -> Addres Reservation**. Here you can add a static IP for your devices.
+You need to fill in a MAC Addres which for allready connected devices can be found under **DHCP -> DHCP Client List**.
+And you have to choose an IP that is static, depending on the router you can do **192.186.1.xxx or 192.186.0.xxx**. In this case it is 192.186.0.xxx.
 To know what you need you can again look at the DHCP Client list and see what they got assigned there. 
-When MAC and IP are filled in make sure it is enabled. To enforce the rules it can help to restart both the router and devices that got a static IP.
+When MAC and IP are filled in make sure it is enabled. To enforce the rules, it can help to restart both the router and devices that got a static IP.
 
 ![DHCP Screen](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/DHCPScreen.jpg)
 
