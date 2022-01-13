@@ -38,6 +38,11 @@ When you have access to the internet start with making sure the device is up to 
 When everything is up to date you have to install the mosquitto broker which can be done with the following command
 - ```sudo apt install mosquitto mosquitto-clients```
 
+Now to makes sure mosquitto can be accessed by other devices use the command '''sudo nano /etc/mosquitto/mosquitto.conf''' in the terminal. A command line editor will open in this file add the following line:
+- listener 1883 0.0.0.0
+1883 is the network port where you can find the broker. You can change this if you want, but it is not neccesary.
+The seccond part tells mosquitto to listen to divices with all sorts of ip. Not only its own.
+
 At the moment you have setup the MQTT client to know what IP it has on the network the following command can be used;
 -```sudo ifconfig```
 The IP is most likely something like 192.168.x.xxx
