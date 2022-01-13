@@ -4,4 +4,4 @@ In this example the **TP-Link Wireless N Router WR841N**, this is a cheap router
 To start find the ip of the interface portal of the router and the login credentails for that page. They should be on the bottom of the router.
 In the example it is under Default Acces
 
-[!Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg)
+![Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg)
