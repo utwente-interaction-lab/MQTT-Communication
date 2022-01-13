@@ -19,6 +19,12 @@ The parts needed and what will be explained will be as follows;
 	- Static IP
 
 
+- Pi setup
+	- Install operating system
+		- Setup WiFi
+		- Setup SSH
+
+
 
  
 
