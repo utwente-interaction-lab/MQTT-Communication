@@ -8,5 +8,5 @@ Press **ctrl+shift+x** a secret menu will show in here:
 - Configure WiFi. Check the box and fill in the credentials and set the Country to NL
 - Set locale settings to the right time zone and keyboard layout
 
-<img src="https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/PiImagerChanges.png" width="300">
+<img src="https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/PiImagerChanges.png" width="600">
 
