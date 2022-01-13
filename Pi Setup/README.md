@@ -1,3 +1,7 @@
+# Setting up a Raspberry Pi
+
+Here will all things concerning setting up a pi to start using it.
+
 ## Installing an operating system
 
 To install a operating system on a raspberry pi the easiest method is to use the [raspberry pi imager](https://www.raspberrypi.com/software/).
