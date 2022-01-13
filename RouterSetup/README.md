@@ -6,7 +6,7 @@ First, make sure you are connected to the router otherwise you will not have acc
 To start find the ip of the interface portal of the router and the login credentails for that page. They should be on the bottom of the router.
 In the example it is under Default Acces
 
-![Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg)
+![Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg | width = 100)
 
 Go that site and use the found credentails to login.
 When logedin go to DHCP -> Addres Reservation. Here you can add a static IP for your devices.
