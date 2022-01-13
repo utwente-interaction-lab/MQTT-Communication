@@ -24,8 +24,8 @@ EspMQTTClient client(
   "192.168.0.3",  // MQTT Broker server ip
   "test",   // MQTT/mosquitto user
   "test",   // MQTT/mosquitto password
-  "ItechExample",     // Client name that uniquely identify your device
-  1883              // The MQTT port, default to 1883. this line can be omitted
+  "ItechExample",     // Client name that uniquely identify your device. for example the website where the esp32 can be found for over the airupdate. default is ItechExample.local
+  1883              // The MQTT port, default to 1883.
 );
 
 void setup() {
