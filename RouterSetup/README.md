@@ -6,7 +6,7 @@ First, make sure you are connected to the router otherwise you will not have acc
 To start find the ip of the interface portal of the router and the login credentails for that page. They should be on the bottom of the router.
 In the example it is under Default Acces
 
-![Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg){:height="50%" width="50%"}
+![Login credentials](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/underSideRouter.jpg)
 
 Go that site and use the found credentails to login.
 When logedin go to DHCP -> Addres Reservation. Here you can add a static IP for your devices.
@@ -15,6 +15,6 @@ And you have to choose an IP that is static, depending on the router you can do 
 To know what you need you can again look at the DHCP Client list and see what they got assigned there. 
 When MAC and IP are filled in make sure it is enabled. To enforce the rules it can help to restart both the router and devices that got a static IP.
 
-![DHCP Screen](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/DHCPScreen.jpg)
+![DHCP Screen](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/DHCPScreen.jpg&s=200)
 
 
