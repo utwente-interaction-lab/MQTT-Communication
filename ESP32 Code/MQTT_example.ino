@@ -48,7 +48,7 @@ void onConnectionEstablished()
 
   //long currentMillis = millis();
 
-  // Subscribe to ItechExample/LedControll", this toggles the led on and of from the example python code
+  // Subscribes to ItechExample/LedControll", this toggles the led on and of from the example python code
   client.subscribe("ItechExample/LedControll", [](const String & payload) {
     Serial.println(payload); // prints the content of a message to the serial monitor
     LedState = payload; // Sets LedState to the received message
