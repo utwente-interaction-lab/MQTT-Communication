@@ -13,7 +13,6 @@ The parts needed and what will be explained will be as follows;
 - MQTT broker setup
 	- Windows
 	- Raspberry pi /Debian based linux
-		- ssh
 
 - Router Setup
 	- Static IP
