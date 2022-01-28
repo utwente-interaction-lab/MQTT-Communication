@@ -20,7 +20,10 @@ This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way fo
 - [Code python](https://github.com/utwente-interaction-lab/MQTT-Communication/tree/main/Python%20Code)
 
 
+## How are devices connected
 
+
+[network overview](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Diagram.svg)
 
 
  
