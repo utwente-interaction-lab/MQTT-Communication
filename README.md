@@ -23,7 +23,7 @@ This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way fo
 ## How are devices connected
 
 
-[network overview](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Diagram.svg)
+![network overview](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Diagram.svg)
 
 
  
