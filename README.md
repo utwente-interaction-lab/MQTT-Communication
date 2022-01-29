@@ -22,6 +22,27 @@ This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way fo
 
 # Key concepts
 
+
+Within MQTT there are some key concepts that you need to understand to work with it
+
+## Retention flag
+A retention flag is something that can usually be turned on when publishing to a topic. When it is set to true the MQTT broker keeps track of the last published data to a topic. This means that when a device subscribes it will receive this data. Otherwise, it would only get data when the subscribing and publishing device is online at the same time. This is not always the case.
+
+## QOS
+QoS stands for Quality of service and can have three values. Not all values are supported by all devices/ code languages. For example, the library used for the esp32 does not support a QoS of 2. The three values are;
+0: fire and forget. There is no check if the package actually arrives at the broker.
+1: The device and broker check if the package is arrived by tracking all sent data on a topic with ID’s
+2: The client will keep sending packages until an acknowledgement package is received.
+The higher the number the less likely you are that a package is not received on the other end. 
+
+
+## Publishing
+Publishing is when a device shares data to the Broker and indirect the devices that want to receive the data. This is what you do with sensor data for example.
+
+## Subscribing
+Subscribing is when a device wants to receive certain data from a device. When a device is subscribed to a topic it will receive data every time a device publishes on that topic.
+
+
 # How are devices connected
 
 In the diagram below two devices are connected to the MQTT broker;
