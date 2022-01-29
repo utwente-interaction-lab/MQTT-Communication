@@ -35,5 +35,5 @@ It may take some time but it should all work now
 
 To connect to the pi with your computer you can use SSH, you do need to be connected to the same network as the Pi otherwise it wont work.
 
-Open the command prompt and type in ```ssh pi@192.186.x.xxx``` the x.xxx you have to find in the router settings and look for the IP address of the pi.
+Open the command prompt and type in ```ssh pi@192.168.x.xxx```. the x.xxx you have to find in the router settings and look for the IP address of the pi. If you filled in a hostname you can also use that. In the case of the example you would use ```ssh pi@mqtt.local```
 If you have the right IP address it should ask if you trust it and want to save the fingerprint. Type ```yes```. Now type in the password you have chosen for the pi and you can send commands to the pi just like if you would open a terminal on the pi itself.
