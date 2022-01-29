@@ -21,9 +21,10 @@ int PotValue; // variable where the read potentiometer value is read
 EspMQTTClient client(
   "ItechLab", // WiFi SSID/name
   "ItechLab", // WiFi password
-  "192.168.0.3",  // MQTT Broker server ip
-  "test",   // MQTT/mosquitto user
-  "test",   // MQTT/mosquitto password
+  //"192.168.0.3",  // MQTT Broker server ip
+  "mqtt.local", //if you use local host. uncomment the one you need. Both can work
+  "ItechLab",   // MQTT/mosquitto user
+  "ItechLab",   // MQTT/mosquitto password
   "ItechExample",     // Client name that uniquely identify your device. for example the website where the esp32 can be found for over the airupdate. default is ItechExample.local
   1883              // The MQTT port, default to 1883.
 );
