@@ -28,3 +28,10 @@ This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way fo
 
  
 
+# Example use cases
+
+In general, the best use case for using MQTT is gathering data from remote sensors or control devices over the network.
+The most basic examples are collecting temperature on a topic and having some python code put the values in a database on the machine that also hosts the MQTT broker.
+However, MQTT can get more complicated by making an actual protocol. An example of this is an internet-enabled infrared remote to control things like the television with your phone like in [this](https://github.com/crankyoldgit/IRremoteESP8266/blob/master/examples/IRMQTTServer/IRMQTTServer.ino) example. 
+
+But for simpler projects is can be useful to monitor or command devices from a distance. While otherwise, you would do this with the serial monitor in the Arduino IDE or processing.
