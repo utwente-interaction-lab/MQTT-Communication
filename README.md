@@ -1,4 +1,4 @@
-# MQTT Communication
+# MQTT Communication - overview
 This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way for devices to send and receive messages to each other. The software that manages all this is called a broker. There will be an explanation and example code for all parts needed to setup up MQTT successfully. The parts needed and what will be explained are listed below in the order you need them;
 
 
@@ -20,7 +20,15 @@ This tutorial is about setting up MQTT with an Espressif esp32. MQTT is a way fo
 - [Code python](https://github.com/utwente-interaction-lab/MQTT-Communication/tree/main/Python%20Code)
 
 
-## How are devices connected
+# Key concepts
+
+# How are devices connected
+
+In the diagram below two devices are connected to the MQTT broker;
+A laptop running a python program
+An esp32 running code and reading a sensor
+
+The Green arrows are the path being followed when a device wants to get data that arrives on a certain topic. The blue arrows are for the path data takes when the topic subscribed by the python program gets data. This can be more than one device. The purple arrows is the path taken when a device publishes data on a certain topic. As can be seen, all data has to go through the router and the MQTT broker. In the small example, the laptop running python subscribes to a certain topic. That topic is the topic where the esp32 publishes its data from the sensors. Now every time the esp32 publishes code to the topic, the broker sends the data to the connected laptop.
 
 
 ![network overview](https://github.com/utwente-interaction-lab/MQTT-Communication/blob/main/Images%20Tutorial/Diagram.svg)
