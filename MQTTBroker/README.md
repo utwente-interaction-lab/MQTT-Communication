@@ -13,7 +13,8 @@ When everything is up to date you have to install the mosquitto broker which can
 - ```sudo apt install mosquitto mosquitto-clients```
 
 Now to make sure mosquitto can be accessed by other devices, use the command '''sudo nano /etc/mosquitto/mosquitto.conf''' in the terminal. A command-line editor will open in this file add the following line:
-- listener 1883 0.0.0.0
+- ```listener 1883 0.0.0.0```
+
 1883 is the network port where you can find the broker. You can change this if you want, but it is not necessary. The second part tells mosquitto to listen to devices with all sorts of IP addresses. Not only it's own.
 
 
