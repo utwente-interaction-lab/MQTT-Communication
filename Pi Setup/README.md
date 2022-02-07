@@ -5,8 +5,8 @@ Here will be all things concerning setting up a pi to start using it.
 ## Installing an operating system
 
 To install an operating system on a raspberry pi the easiest method is to use the [raspberry pi imager](https://www.raspberrypi.com/software/).
-If you use a version with a GIU make sure you have a screen and keyboard. Otherwise, the use of a GUI is not possible and you might just choose a headless version.
-A GUI is not recommended if you use the raspberry pi zero, 1 or 2. To choose a headless version in raspbian click on **Raspberry Pi OS (other)** and choose **Raspberry Pi OS Lite (32-bit)**. To make life easier so you will not need a keyboard and screen at all, some things can be configured after selecting the OS but **before** writing it to a **micro SD card**.
+If you use a version with a GIU make sure you have a screen and keyboard. Otherwise, the use of a desktop environment is not possible and you might just choose a headless version.
+A desktop environment is not recommended if you use the raspberry pi zero, 1 or 2. Instead you can choose for a headless version. This means that you only have acces a command line interface when you connect a screen to the Pi. This means the pi has to do less stuff in the background to make things look pretty. To choose a headless version in raspbian click on **Raspberry Pi OS (other)** and choose **Raspberry Pi OS Lite (32-bit)**. To make life easier so you will not need a keyboard and screen at all, some things can be configured after selecting the OS but **before** writing it to a **micro SD card**.
 
 ### SSH
 
