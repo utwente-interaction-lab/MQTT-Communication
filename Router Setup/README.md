@@ -1,4 +1,4 @@
-This part is an example of how to set a static IP in a router. This looks different for every router but the main principles should be the same.
+This part is an example of how to set a static IP in a router. This is needed since you want the ip of the device that runs the MQTT broker to remain the same. Because in all devices that are going to connect to it this IP adderess is hardcoded. This is probably not necessary if you use a hostname for that device and use that in your code. But can stil be good practice to do it. Setting a static ip looks different for every router but the main principles should be the same.
 In this example the router is a **TP-Link Wireless N Router WR841N**, this is a cheap router that can be bought at the stores on campus.
 
 First, make sure you are connected to the router otherwise you will not have access to it. This can be done with a cable or via WiFi. When you use WiFi the credentials for connecting should be on the underside, if you or someone else did not change it.
